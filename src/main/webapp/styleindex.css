@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pp-title {
+    text-align: center;
+    background-color: #0828b0;
+    padding: 20px;
+    color: #fff;
+}
+
+.pp-title h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.pp-title a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.pp-title a:hover {
+    text-decoration: underline;
+}
+
+
+.pp-title a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+.pp-title a:hover {
+    color: #f39c12;
+}
